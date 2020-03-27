@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D53853EE32120C53CD29D00E84D27D9 /* WeScan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9424F970CE9B4785AD641E6BA993A561 /* WeScan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1082FD1439AF61CF63647FD28B04FAC3 /* FocusRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7DE2563AAC5DA4A2D9E22B60798A7C /* FocusRectangleView.swift */; };
+		146E58E7837CA4D991211478F8A99FAB /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D268F23E516953D4F315D9D379B9111 /* Transformable.swift */; };
+		1A89B017B0508E51A41D92F0A02A23C1 /* CGPoint+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210DAFB2AE38D783D726F73C188B5681 /* CGPoint+Utils.swift */; };
+		22D08B46E8B36970CD92C8D717C841E3 /* WeScan.h in Headers */ = {isa = PBXBuildFile; fileRef = 9521871B71C23509FB04DD698D0E0C75 /* WeScan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3134AFF8988A778F172229BF2BEACA72 /* Array+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EA59F44C6F89ACB392E8FCE6C9DB53 /* Array+Utils.swift */; };
+		33C571F4E033BD821657BEF69A2DFAA4 /* CaptureSession+Focus.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED222DC9F8785EECCB61EBCD3F25F8D0 /* CaptureSession+Focus.swift */; };
+		406750E51CB402508140FFE1CDCFDA31 /* EditScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF8111A42D9B3C10CBEF6EB90F1DC25 /* EditScanViewController.swift */; };
+		424CE80353B49CACBAD8DB51DC89564C /* flash.png in Resources */ = {isa = PBXBuildFile; fileRef = 45935099E502C3E71F4FD43365DF6CAB /* flash.png */; };
+		462644DE187EBD9745DBE7B2468304DD /* ImageScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6938D9EE3C7B4B67786A7617F68AD8E3 /* ImageScannerController.swift */; };
+		4B0ECB2C367C2A6BF363BAAE2DB14C34 /* Quadrilateral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CE14ABC9D1772D17B1F64BC746F80E /* Quadrilateral.swift */; };
+		51A49BCB0AD404D64DE03726D4878D1F /* flashUnavailable.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A997BE3424E921560365B39D2B52133 /* flashUnavailable.png */; };
+		51ED003BF195DE946D7C29295223A29C /* CaptureSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913A487297152AF746FE953FB9AC852E /* CaptureSessionManager.swift */; };
+		53F79614275059E3E014210DB2973E75 /* CGAffineTransform+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B316B6C3FD4F1FE1F40CF29E39897B23 /* CGAffineTransform+Utils.swift */; };
+		53FD48E0FFB8259003F8F5133DCF9A65 /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D091C9240B27CAE98DAA8B6F84DC562 /* ReviewViewController.swift */; };
+		607EBB9C4FF3A38A115394DC808F4290 /* rotate@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB01E18DA5A87E52D8F0436678097B2D /* rotate@3x.png */; };
+		636AB5CEA8F0CD4545D219A5F4E7F44E /* RectangleFeaturesFunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF4C531991D5ABC055F12BCA82B29EC /* RectangleFeaturesFunnel.swift */; };
+		6F0D6BD4E700A7E6EA97925619185A53 /* flashUnavailable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50C6D7D4F7F414BAB696C227A57897AA /* flashUnavailable@2x.png */; };
+		6FBE90530897297F12D01BB6CD44F0E5 /* VisionRectangleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5248088A1E4E459B4CAD7960E3161A67 /* VisionRectangleDetector.swift */; };
+		8163697C3037EC844D033A96ECCB317D /* EditScanCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6428D0C7C2D7DEE84DE8E74B5C96D6E0 /* EditScanCornerView.swift */; };
+		82CCD0C7B5893AE21C24ED2733884C8A /* flash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D87818FE30FA20452905EE010C423CA /* flash@2x.png */; };
+		842F457BE18AA7221656CE0263C8692E /* CGImagePropertyOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D45B4701925A1D9F0C13DB9B2A672B /* CGImagePropertyOrientation.swift */; };
+		89EACEF31A48D7295046E373E584DEB9 /* ShutterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EE09D84FF06925D2E524384B2433DB /* ShutterButton.swift */; };
+		8C5E0F6C309C4D7E157BC296C75D4C24 /* rotate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DCEED3215CF2D80BDACC4CFFC3870931 /* rotate@2x.png */; };
+		8E01A47361CD36E067B367E9BE2E1F02 /* QuadrilateralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACCDC5ED9E7962EE7070C6357F0512E /* QuadrilateralView.swift */; };
+		92D961B1B33849C75D54DDD3DF5A245A /* UIImage+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E4726F0D6827E2E21302E628C792D8 /* UIImage+Orientation.swift */; };
+		98050365CDF5B2C3F8C25656F6D89511 /* enhance@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B98FB0E3BEC12103E244241063BCBE5 /* enhance@2x.png */; };
+		9883D911C01D1D32D301CE3843471481 /* ZoomGestureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06062EF49ECEAAB49F219BBCA4FDC48A /* ZoomGestureController.swift */; };
+		9E3D61F14C2D7E0E97BA001458E42A1A /* CaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFA460B3E539CB2B1C6016C6D135F3 /* CaptureSession.swift */; };
+		A83AC8EAA61175CA4D35CB48E47BDEEE /* enhance.png in Resources */ = {isa = PBXBuildFile; fileRef = 453A43FE05C2DC3FDD1068BEB019F18A /* enhance.png */; };
+		AB98F494AD510D1255E7BB95933311C8 /* rotate.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B122FCB39931B394376197B3B6875A6 /* rotate.png */; };
+		AD3B3243E5B6A45D1296034A70AD00E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		ADA2FCFB05D4EAFF436BE8CAF8B94708 /* WeScan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72368D4963B98EEBFD8CEDFD1A2F6584 /* WeScan-dummy.m */; };
+		AF6D3E267ABB673F80EE262D23A9ADD8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A293DC16F7691AF01F951534A98BA501 /* Localizable.strings */; };
+		B5AC8F95F53403BC8743650339541E4E /* UIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3201FE065790BD9A46684ABA26DF90B /* UIImage+Utils.swift */; };
+		BAFFC390C0F64DF206EACA90E33CBC40 /* CaptureSession+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4F997E6918CD4D9022E75034B68768 /* CaptureSession+Orientation.swift */; };
+		BCD8CE04ECBBD5547E844D5E8D903E62 /* CGSize+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4726E71A5A405126A3077DD2CE4DE /* CGSize+Utils.swift */; };
+		C5EB4D43A688B4AB9034203EFC3FFC46 /* flashUnavailable@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDEBCE253FC5EF5F2F5C672472ECF6C /* flashUnavailable@3x.png */; };
+		CC908C4E0953D0C611EAC416DC4C91A4 /* CaptureDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FB0EC315247D2BB6B38BF316CB55FF /* CaptureDevice.swift */; };
+		CF4F9EFC478AA2BE2B25332F1BE94BBE /* enhance@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 668CCB7B3031904D5702CC0E89140042 /* enhance@3x.png */; };
+		D051C229CABA3090701B7D4AD2B0996C /* flash@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96C34FC40DD926F9D35867CB3D31C6FA /* flash@3x.png */; };
+		D373484905305653D2CB2A1E93727577 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037C8BD8861C378D4838DD44AA6B368F /* ScannerViewController.swift */; };
+		D6639270AA02990965A6BF81E28DBF4A /* CIRectangleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB88A0D8507EF0A609A82DCF42451E51 /* CIRectangleDetector.swift */; };
+		DE8F285309EEDA58D2E6CCDA23994F69 /* CGRect+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EDD91FA007AB9678E19D1A8CE401C6 /* CGRect+Utils.swift */; };
+		E895A518E0293587D42FC11C485F1B11 /* Pods-Document Scanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0AF99B84232F49EE9CFEA5B04DDD28B /* Pods-Document Scanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED8381181C70CF224D45D720991F1585 /* Pods-Document Scanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD627A178D8F4061EB7D956EA914AD9B /* Pods-Document Scanner-dummy.m */; };
+		EEA40BEDCF2485DE7AF3132D3A84A929 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1716D6CBEF73E0536DF0EA89D9B795 /* Error.swift */; };
+		F0FBD0E3A0DA87A12112E5EE63276869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F45AC771D7B9862A6D0F6A9C71C63704 /* CaptureSession+Flash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6B8B427516743749781082524B22F5 /* CaptureSession+Flash.swift */; };
+		F6BFF825604CDE5CB6D8DF247598A294 /* AVCaptureVideoOrientation+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54DEE9131ABD1E83C6449A58D3C67DD1 /* AVCaptureVideoOrientation+Utils.swift */; };
+		FEDA41D3378826E6487CE73E1F7DAA6D /* CIImage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09039229CBB16C5E037149C5BB35FA6 /* CIImage+Utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86CB4C65512462F5FCC596DA896A3011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C53EB902F8F7C70E35AAFC5518DF8A68;
+			remoteInfo = WeScan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037C8BD8861C378D4838DD44AA6B368F /* ScannerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScannerViewController.swift; path = WeScan/Scan/ScannerViewController.swift; sourceTree = "<group>"; };
+		040B87CF3C1975E904BF1DDC85B1FB84 /* WeScan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WeScan.xcconfig; sourceTree = "<group>"; };
+		06062EF49ECEAAB49F219BBCA4FDC48A /* ZoomGestureController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomGestureController.swift; path = WeScan/Edit/ZoomGestureController.swift; sourceTree = "<group>"; };
+		0B8A4410603B3650ED8B9C062561FA53 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0EF4C531991D5ABC055F12BCA82B29EC /* RectangleFeaturesFunnel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RectangleFeaturesFunnel.swift; path = WeScan/Scan/RectangleFeaturesFunnel.swift; sourceTree = "<group>"; };
+		1A997BE3424E921560365B39D2B52133 /* flashUnavailable.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = flashUnavailable.png; path = WeScan/Assets/flashUnavailable.png; sourceTree = "<group>"; };
+		1B122FCB39931B394376197B3B6875A6 /* rotate.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = rotate.png; path = WeScan/Assets/rotate.png; sourceTree = "<group>"; };
+		1CD2380F2700AD12255D75DF429B472D /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1FA10B851ACDB1D97F4AA2F2B145F3ED /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		210DAFB2AE38D783D726F73C188B5681 /* CGPoint+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Utils.swift"; path = "WeScan/Extensions/CGPoint+Utils.swift"; sourceTree = "<group>"; };
+		23274B3475CBB7BD2B5B4D5FA8592E55 /* Pods-Document Scanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Document Scanner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		24C22E100AACC05E3530605B1F6EA59B /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2A985335BA85BAE2F769CE33721C5102 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3D87818FE30FA20452905EE010C423CA /* flash@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flash@2x.png"; path = "WeScan/Assets/flash@2x.png"; sourceTree = "<group>"; };
+		3EE5F495874BD0EC13CB14E0E3DA89EE /* Pods-Document Scanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Document Scanner.release.xcconfig"; sourceTree = "<group>"; };
+		40D45B4701925A1D9F0C13DB9B2A672B /* CGImagePropertyOrientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGImagePropertyOrientation.swift; path = WeScan/Extensions/CGImagePropertyOrientation.swift; sourceTree = "<group>"; };
+		42F17B0545C9BEAE221BC65A301C4AAF /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		453A43FE05C2DC3FDD1068BEB019F18A /* enhance.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = enhance.png; path = WeScan/Assets/enhance.png; sourceTree = "<group>"; };
+		45935099E502C3E71F4FD43365DF6CAB /* flash.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = flash.png; path = WeScan/Assets/flash.png; sourceTree = "<group>"; };
+		46FB0EC315247D2BB6B38BF316CB55FF /* CaptureDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureDevice.swift; path = WeScan/Protocols/CaptureDevice.swift; sourceTree = "<group>"; };
+		50C6D7D4F7F414BAB696C227A57897AA /* flashUnavailable@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashUnavailable@2x.png"; path = "WeScan/Assets/flashUnavailable@2x.png"; sourceTree = "<group>"; };
+		5248088A1E4E459B4CAD7960E3161A67 /* VisionRectangleDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VisionRectangleDetector.swift; path = WeScan/Common/VisionRectangleDetector.swift; sourceTree = "<group>"; };
+		54DEE9131ABD1E83C6449A58D3C67DD1 /* AVCaptureVideoOrientation+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AVCaptureVideoOrientation+Utils.swift"; path = "WeScan/Extensions/AVCaptureVideoOrientation+Utils.swift"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B79D534497FFB4881DDC815C4F1D7B2 /* WeScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B98FB0E3BEC12103E244241063BCBE5 /* enhance@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "enhance@2x.png"; path = "WeScan/Assets/enhance@2x.png"; sourceTree = "<group>"; };
+		6428D0C7C2D7DEE84DE8E74B5C96D6E0 /* EditScanCornerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EditScanCornerView.swift; path = WeScan/Common/EditScanCornerView.swift; sourceTree = "<group>"; };
+		6682D710E82E28BAC7066FC7592386D3 /* WeScan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeScan-prefix.pch"; sourceTree = "<group>"; };
+		668CCB7B3031904D5702CC0E89140042 /* enhance@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "enhance@3x.png"; path = "WeScan/Assets/enhance@3x.png"; sourceTree = "<group>"; };
+		6938D9EE3C7B4B67786A7617F68AD8E3 /* ImageScannerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageScannerController.swift; path = WeScan/ImageScannerController.swift; sourceTree = "<group>"; };
+		72368D4963B98EEBFD8CEDFD1A2F6584 /* WeScan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WeScan-dummy.m"; sourceTree = "<group>"; };
+		7E1716D6CBEF73E0536DF0EA89D9B795 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = WeScan/Common/Error.swift; sourceTree = "<group>"; };
+		84E4726E71A5A405126A3077DD2CE4DE /* CGSize+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGSize+Utils.swift"; path = "WeScan/Extensions/CGSize+Utils.swift"; sourceTree = "<group>"; };
+		8D091C9240B27CAE98DAA8B6F84DC562 /* ReviewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReviewViewController.swift; path = WeScan/Review/ReviewViewController.swift; sourceTree = "<group>"; };
+		8D9978B238DC1C31AB13786A59EA4034 /* Pods-Document Scanner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Document Scanner-Info.plist"; sourceTree = "<group>"; };
+		8F6B8B427516743749781082524B22F5 /* CaptureSession+Flash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CaptureSession+Flash.swift"; path = "WeScan/Session/CaptureSession+Flash.swift"; sourceTree = "<group>"; };
+		90E4726F0D6827E2E21302E628C792D8 /* UIImage+Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Orientation.swift"; path = "WeScan/Extensions/UIImage+Orientation.swift"; sourceTree = "<group>"; };
+		90EE09D84FF06925D2E524384B2433DB /* ShutterButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShutterButton.swift; path = WeScan/Scan/ShutterButton.swift; sourceTree = "<group>"; };
+		913A487297152AF746FE953FB9AC852E /* CaptureSessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureSessionManager.swift; path = WeScan/Scan/CaptureSessionManager.swift; sourceTree = "<group>"; };
+		91EDD91FA007AB9678E19D1A8CE401C6 /* CGRect+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGRect+Utils.swift"; path = "WeScan/Extensions/CGRect+Utils.swift"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9424F970CE9B4785AD641E6BA993A561 /* WeScan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WeScan-umbrella.h"; sourceTree = "<group>"; };
+		94CE14ABC9D1772D17B1F64BC746F80E /* Quadrilateral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Quadrilateral.swift; path = WeScan/Common/Quadrilateral.swift; sourceTree = "<group>"; };
+		9521871B71C23509FB04DD698D0E0C75 /* WeScan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WeScan.h; path = WeScan/WeScan.h; sourceTree = "<group>"; };
+		96C34FC40DD926F9D35867CB3D31C6FA /* flash@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flash@3x.png"; path = "WeScan/Assets/flash@3x.png"; sourceTree = "<group>"; };
+		981CD092A6D4710EDA84932FA8182B61 /* Pods_Document_Scanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Document_Scanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D268F23E516953D4F315D9D379B9111 /* Transformable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transformable.swift; path = WeScan/Protocols/Transformable.swift; sourceTree = "<group>"; };
+		9D311462D7E4FBDD1877C376FF930698 /* WeScan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WeScan.modulemap; sourceTree = "<group>"; };
+		A9DFA460B3E539CB2B1C6016C6D135F3 /* CaptureSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaptureSession.swift; path = WeScan/Session/CaptureSession.swift; sourceTree = "<group>"; };
+		AD3BD69E5DEC1C7036F4EE9F3B7E8CB5 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AD4F997E6918CD4D9022E75034B68768 /* CaptureSession+Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CaptureSession+Orientation.swift"; path = "WeScan/Session/CaptureSession+Orientation.swift"; sourceTree = "<group>"; };
+		AE0E0A2175F1CBC889B95B9BC21C3AB4 /* Pods-Document Scanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Document Scanner-acknowledgements.plist"; sourceTree = "<group>"; };
+		B09039229CBB16C5E037149C5BB35FA6 /* CIImage+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CIImage+Utils.swift"; path = "WeScan/Extensions/CIImage+Utils.swift"; sourceTree = "<group>"; };
+		B0AF99B84232F49EE9CFEA5B04DDD28B /* Pods-Document Scanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Document Scanner-umbrella.h"; sourceTree = "<group>"; };
+		B316B6C3FD4F1FE1F40CF29E39897B23 /* CGAffineTransform+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGAffineTransform+Utils.swift"; path = "WeScan/Extensions/CGAffineTransform+Utils.swift"; sourceTree = "<group>"; };
+		B4B14FB756D9ACF087A13A8A19BEA1DE /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B6C6E5A3BB03D2899472404F8E97B90D /* Pods-Document Scanner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Document Scanner-frameworks.sh"; sourceTree = "<group>"; };
+		B7582A96B644C915EA6962F9A188018A /* Pods-Document Scanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Document Scanner.modulemap"; sourceTree = "<group>"; };
+		BBF8111A42D9B3C10CBEF6EB90F1DC25 /* EditScanViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EditScanViewController.swift; path = WeScan/Edit/EditScanViewController.swift; sourceTree = "<group>"; };
+		C3201FE065790BD9A46684ABA26DF90B /* UIImage+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+Utils.swift"; path = "WeScan/Extensions/UIImage+Utils.swift"; sourceTree = "<group>"; };
+		CB01E18DA5A87E52D8F0436678097B2D /* rotate@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rotate@3x.png"; path = "WeScan/Assets/rotate@3x.png"; sourceTree = "<group>"; };
+		CDDEBCE253FC5EF5F2F5C672472ECF6C /* flashUnavailable@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "flashUnavailable@3x.png"; path = "WeScan/Assets/flashUnavailable@3x.png"; sourceTree = "<group>"; };
+		DCC2686A7BAEE778CEB29A66BBEF9210 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DCEED3215CF2D80BDACC4CFFC3870931 /* rotate@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "rotate@2x.png"; path = "WeScan/Assets/rotate@2x.png"; sourceTree = "<group>"; };
+		DF91CE54B08A0ACC2BE654E28391A091 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E26A7C910C5F1876CC7B75E94BEBA5D9 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E5EA59F44C6F89ACB392E8FCE6C9DB53 /* Array+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+Utils.swift"; path = "WeScan/Extensions/Array+Utils.swift"; sourceTree = "<group>"; };
+		EACCDC5ED9E7962EE7070C6357F0512E /* QuadrilateralView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuadrilateralView.swift; path = WeScan/Common/QuadrilateralView.swift; sourceTree = "<group>"; };
+		ED222DC9F8785EECCB61EBCD3F25F8D0 /* CaptureSession+Focus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CaptureSession+Focus.swift"; path = "WeScan/Session/CaptureSession+Focus.swift"; sourceTree = "<group>"; };
+		ED66C377CC0EC87290A0BFE393F41494 /* WeScan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WeScan-Info.plist"; sourceTree = "<group>"; };
+		EE7DE2563AAC5DA4A2D9E22B60798A7C /* FocusRectangleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FocusRectangleView.swift; path = WeScan/Scan/FocusRectangleView.swift; sourceTree = "<group>"; };
+		F4E06CEB8F0B00BEA3971A55215BFB52 /* Pods-Document Scanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Document Scanner.debug.xcconfig"; sourceTree = "<group>"; };
+		FAC5855F92B1A6ACEC7917E4C79C8946 /* Localizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Localizable.strings; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FB88A0D8507EF0A609A82DCF42451E51 /* CIRectangleDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CIRectangleDetector.swift; path = WeScan/Common/CIRectangleDetector.swift; sourceTree = "<group>"; };
+		FD627A178D8F4061EB7D956EA914AD9B /* Pods-Document Scanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Document Scanner-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B0BB2C031F06C1D7D98AA9DAAF0CF67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3B3243E5B6A45D1296034A70AD00E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1AA4F826468B0ED9FE6AE48561BED05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FBD0E3A0DA87A12112E5EE63276869 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2828BC4DCEB1B946D32D22C9F15EE09C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				981CD092A6D4710EDA84932FA8182B61 /* Pods_Document_Scanner.framework */,
+				5B79D534497FFB4881DDC815C4F1D7B2 /* WeScan.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BBF9FB4CD20C66AA6F11BF8DECF3EAF /* WeScan */ = {
+			isa = PBXGroup;
+			children = (
+				E5EA59F44C6F89ACB392E8FCE6C9DB53 /* Array+Utils.swift */,
+				54DEE9131ABD1E83C6449A58D3C67DD1 /* AVCaptureVideoOrientation+Utils.swift */,
+				46FB0EC315247D2BB6B38BF316CB55FF /* CaptureDevice.swift */,
+				A9DFA460B3E539CB2B1C6016C6D135F3 /* CaptureSession.swift */,
+				8F6B8B427516743749781082524B22F5 /* CaptureSession+Flash.swift */,
+				ED222DC9F8785EECCB61EBCD3F25F8D0 /* CaptureSession+Focus.swift */,
+				AD4F997E6918CD4D9022E75034B68768 /* CaptureSession+Orientation.swift */,
+				913A487297152AF746FE953FB9AC852E /* CaptureSessionManager.swift */,
+				B316B6C3FD4F1FE1F40CF29E39897B23 /* CGAffineTransform+Utils.swift */,
+				40D45B4701925A1D9F0C13DB9B2A672B /* CGImagePropertyOrientation.swift */,
+				210DAFB2AE38D783D726F73C188B5681 /* CGPoint+Utils.swift */,
+				91EDD91FA007AB9678E19D1A8CE401C6 /* CGRect+Utils.swift */,
+				84E4726E71A5A405126A3077DD2CE4DE /* CGSize+Utils.swift */,
+				B09039229CBB16C5E037149C5BB35FA6 /* CIImage+Utils.swift */,
+				FB88A0D8507EF0A609A82DCF42451E51 /* CIRectangleDetector.swift */,
+				6428D0C7C2D7DEE84DE8E74B5C96D6E0 /* EditScanCornerView.swift */,
+				BBF8111A42D9B3C10CBEF6EB90F1DC25 /* EditScanViewController.swift */,
+				7E1716D6CBEF73E0536DF0EA89D9B795 /* Error.swift */,
+				EE7DE2563AAC5DA4A2D9E22B60798A7C /* FocusRectangleView.swift */,
+				6938D9EE3C7B4B67786A7617F68AD8E3 /* ImageScannerController.swift */,
+				94CE14ABC9D1772D17B1F64BC746F80E /* Quadrilateral.swift */,
+				EACCDC5ED9E7962EE7070C6357F0512E /* QuadrilateralView.swift */,
+				0EF4C531991D5ABC055F12BCA82B29EC /* RectangleFeaturesFunnel.swift */,
+				8D091C9240B27CAE98DAA8B6F84DC562 /* ReviewViewController.swift */,
+				037C8BD8861C378D4838DD44AA6B368F /* ScannerViewController.swift */,
+				90EE09D84FF06925D2E524384B2433DB /* ShutterButton.swift */,
+				9D268F23E516953D4F315D9D379B9111 /* Transformable.swift */,
+				90E4726F0D6827E2E21302E628C792D8 /* UIImage+Orientation.swift */,
+				C3201FE065790BD9A46684ABA26DF90B /* UIImage+Utils.swift */,
+				5248088A1E4E459B4CAD7960E3161A67 /* VisionRectangleDetector.swift */,
+				9521871B71C23509FB04DD698D0E0C75 /* WeScan.h */,
+				06062EF49ECEAAB49F219BBCA4FDC48A /* ZoomGestureController.swift */,
+				BC04BA575D62CF41FC9F29E6D616C011 /* Resources */,
+				8382F3B7E0CB715CEFA5552061EB19EA /* Support Files */,
+			);
+			path = WeScan;
+			sourceTree = "<group>";
+		};
+		3CA24AA9B69A8F57A39508127982CB21 /* Pods-Document Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				B7582A96B644C915EA6962F9A188018A /* Pods-Document Scanner.modulemap */,
+				23274B3475CBB7BD2B5B4D5FA8592E55 /* Pods-Document Scanner-acknowledgements.markdown */,
+				AE0E0A2175F1CBC889B95B9BC21C3AB4 /* Pods-Document Scanner-acknowledgements.plist */,
+				FD627A178D8F4061EB7D956EA914AD9B /* Pods-Document Scanner-dummy.m */,
+				B6C6E5A3BB03D2899472404F8E97B90D /* Pods-Document Scanner-frameworks.sh */,
+				8D9978B238DC1C31AB13786A59EA4034 /* Pods-Document Scanner-Info.plist */,
+				B0AF99B84232F49EE9CFEA5B04DDD28B /* Pods-Document Scanner-umbrella.h */,
+				F4E06CEB8F0B00BEA3971A55215BFB52 /* Pods-Document Scanner.debug.xcconfig */,
+				3EE5F495874BD0EC13CB14E0E3DA89EE /* Pods-Document Scanner.release.xcconfig */,
+			);
+			name = "Pods-Document Scanner";
+			path = "Target Support Files/Pods-Document Scanner";
+			sourceTree = "<group>";
+		};
+		5D9AA3D94CE2B39C112A1A556DD206F6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CA24AA9B69A8F57A39508127982CB21 /* Pods-Document Scanner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6CA1A73A3E6F0045350D623D2969D5DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BBF9FB4CD20C66AA6F11BF8DECF3EAF /* WeScan */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6CA1A73A3E6F0045350D623D2969D5DF /* Pods */,
+				2828BC4DCEB1B946D32D22C9F15EE09C /* Products */,
+				5D9AA3D94CE2B39C112A1A556DD206F6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8382F3B7E0CB715CEFA5552061EB19EA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D311462D7E4FBDD1877C376FF930698 /* WeScan.modulemap */,
+				040B87CF3C1975E904BF1DDC85B1FB84 /* WeScan.xcconfig */,
+				72368D4963B98EEBFD8CEDFD1A2F6584 /* WeScan-dummy.m */,
+				ED66C377CC0EC87290A0BFE393F41494 /* WeScan-Info.plist */,
+				6682D710E82E28BAC7066FC7592386D3 /* WeScan-prefix.pch */,
+				9424F970CE9B4785AD641E6BA993A561 /* WeScan-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WeScan";
+			sourceTree = "<group>";
+		};
+		BC04BA575D62CF41FC9F29E6D616C011 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				453A43FE05C2DC3FDD1068BEB019F18A /* enhance.png */,
+				5B98FB0E3BEC12103E244241063BCBE5 /* enhance@2x.png */,
+				668CCB7B3031904D5702CC0E89140042 /* enhance@3x.png */,
+				45935099E502C3E71F4FD43365DF6CAB /* flash.png */,
+				3D87818FE30FA20452905EE010C423CA /* flash@2x.png */,
+				96C34FC40DD926F9D35867CB3D31C6FA /* flash@3x.png */,
+				1A997BE3424E921560365B39D2B52133 /* flashUnavailable.png */,
+				50C6D7D4F7F414BAB696C227A57897AA /* flashUnavailable@2x.png */,
+				CDDEBCE253FC5EF5F2F5C672472ECF6C /* flashUnavailable@3x.png */,
+				A293DC16F7691AF01F951534A98BA501 /* Localizable.strings */,
+				1B122FCB39931B394376197B3B6875A6 /* rotate.png */,
+				DCEED3215CF2D80BDACC4CFFC3870931 /* rotate@2x.png */,
+				CB01E18DA5A87E52D8F0436678097B2D /* rotate@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		393D7414D8CF0D294A0AB8FF13CDA6E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D53853EE32120C53CD29D00E84D27D9 /* WeScan-umbrella.h in Headers */,
+				22D08B46E8B36970CD92C8D717C841E3 /* WeScan.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC6CE18C72F173E0CAB9B4105DF2FBE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E895A518E0293587D42FC11C485F1B11 /* Pods-Document Scanner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C3A427E0BD007767AB3F0889FED2484 /* Pods-Document Scanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC2BF833D515173949F68B6B252C2FC /* Build configuration list for PBXNativeTarget "Pods-Document Scanner" */;
+			buildPhases = (
+				5CC6CE18C72F173E0CAB9B4105DF2FBE /* Headers */,
+				6C5640E8D6B3EA7815CF7D6422AFD727 /* Sources */,
+				7B0BB2C031F06C1D7D98AA9DAAF0CF67 /* Frameworks */,
+				4E590C16FB292CC9392296397479FF6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DC0E9F685373915AD263656B488D083 /* PBXTargetDependency */,
+			);
+			name = "Pods-Document Scanner";
+			productName = "Pods-Document Scanner";
+			productReference = 981CD092A6D4710EDA84932FA8182B61 /* Pods_Document_Scanner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C53EB902F8F7C70E35AAFC5518DF8A68 /* WeScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B647A59DB93905F8CC94464877009E /* Build configuration list for PBXNativeTarget "WeScan" */;
+			buildPhases = (
+				393D7414D8CF0D294A0AB8FF13CDA6E2 /* Headers */,
+				C1B46200E7FB952C1C4D5204544C17C5 /* Sources */,
+				E1AA4F826468B0ED9FE6AE48561BED05 /* Frameworks */,
+				21677BE1A520CAFAEC0711A9132661C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeScan;
+			productName = WeScan;
+			productReference = 5B79D534497FFB4881DDC815C4F1D7B2 /* WeScan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				de,
+				"es-419",
+				es,
+				fr,
+				hu,
+				it,
+				pl,
+				"pt-BR",
+				"pt-PT",
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2828BC4DCEB1B946D32D22C9F15EE09C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C3A427E0BD007767AB3F0889FED2484 /* Pods-Document Scanner */,
+				C53EB902F8F7C70E35AAFC5518DF8A68 /* WeScan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21677BE1A520CAFAEC0711A9132661C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83AC8EAA61175CA4D35CB48E47BDEEE /* enhance.png in Resources */,
+				98050365CDF5B2C3F8C25656F6D89511 /* enhance@2x.png in Resources */,
+				CF4F9EFC478AA2BE2B25332F1BE94BBE /* enhance@3x.png in Resources */,
+				424CE80353B49CACBAD8DB51DC89564C /* flash.png in Resources */,
+				82CCD0C7B5893AE21C24ED2733884C8A /* flash@2x.png in Resources */,
+				D051C229CABA3090701B7D4AD2B0996C /* flash@3x.png in Resources */,
+				51A49BCB0AD404D64DE03726D4878D1F /* flashUnavailable.png in Resources */,
+				6F0D6BD4E700A7E6EA97925619185A53 /* flashUnavailable@2x.png in Resources */,
+				C5EB4D43A688B4AB9034203EFC3FFC46 /* flashUnavailable@3x.png in Resources */,
+				AF6D3E267ABB673F80EE262D23A9ADD8 /* Localizable.strings in Resources */,
+				AB98F494AD510D1255E7BB95933311C8 /* rotate.png in Resources */,
+				8C5E0F6C309C4D7E157BC296C75D4C24 /* rotate@2x.png in Resources */,
+				607EBB9C4FF3A38A115394DC808F4290 /* rotate@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E590C16FB292CC9392296397479FF6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C5640E8D6B3EA7815CF7D6422AFD727 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8381181C70CF224D45D720991F1585 /* Pods-Document Scanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B46200E7FB952C1C4D5204544C17C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3134AFF8988A778F172229BF2BEACA72 /* Array+Utils.swift in Sources */,
+				F6BFF825604CDE5CB6D8DF247598A294 /* AVCaptureVideoOrientation+Utils.swift in Sources */,
+				CC908C4E0953D0C611EAC416DC4C91A4 /* CaptureDevice.swift in Sources */,
+				F45AC771D7B9862A6D0F6A9C71C63704 /* CaptureSession+Flash.swift in Sources */,
+				33C571F4E033BD821657BEF69A2DFAA4 /* CaptureSession+Focus.swift in Sources */,
+				BAFFC390C0F64DF206EACA90E33CBC40 /* CaptureSession+Orientation.swift in Sources */,
+				9E3D61F14C2D7E0E97BA001458E42A1A /* CaptureSession.swift in Sources */,
+				51ED003BF195DE946D7C29295223A29C /* CaptureSessionManager.swift in Sources */,
+				53F79614275059E3E014210DB2973E75 /* CGAffineTransform+Utils.swift in Sources */,
+				842F457BE18AA7221656CE0263C8692E /* CGImagePropertyOrientation.swift in Sources */,
+				1A89B017B0508E51A41D92F0A02A23C1 /* CGPoint+Utils.swift in Sources */,
+				DE8F285309EEDA58D2E6CCDA23994F69 /* CGRect+Utils.swift in Sources */,
+				BCD8CE04ECBBD5547E844D5E8D903E62 /* CGSize+Utils.swift in Sources */,
+				FEDA41D3378826E6487CE73E1F7DAA6D /* CIImage+Utils.swift in Sources */,
+				D6639270AA02990965A6BF81E28DBF4A /* CIRectangleDetector.swift in Sources */,
+				8163697C3037EC844D033A96ECCB317D /* EditScanCornerView.swift in Sources */,
+				406750E51CB402508140FFE1CDCFDA31 /* EditScanViewController.swift in Sources */,
+				EEA40BEDCF2485DE7AF3132D3A84A929 /* Error.swift in Sources */,
+				1082FD1439AF61CF63647FD28B04FAC3 /* FocusRectangleView.swift in Sources */,
+				462644DE187EBD9745DBE7B2468304DD /* ImageScannerController.swift in Sources */,
+				4B0ECB2C367C2A6BF363BAAE2DB14C34 /* Quadrilateral.swift in Sources */,
+				8E01A47361CD36E067B367E9BE2E1F02 /* QuadrilateralView.swift in Sources */,
+				636AB5CEA8F0CD4545D219A5F4E7F44E /* RectangleFeaturesFunnel.swift in Sources */,
+				53FD48E0FFB8259003F8F5133DCF9A65 /* ReviewViewController.swift in Sources */,
+				D373484905305653D2CB2A1E93727577 /* ScannerViewController.swift in Sources */,
+				89EACEF31A48D7295046E373E584DEB9 /* ShutterButton.swift in Sources */,
+				146E58E7837CA4D991211478F8A99FAB /* Transformable.swift in Sources */,
+				92D961B1B33849C75D54DDD3DF5A245A /* UIImage+Orientation.swift in Sources */,
+				B5AC8F95F53403BC8743650339541E4E /* UIImage+Utils.swift in Sources */,
+				6FBE90530897297F12D01BB6CD44F0E5 /* VisionRectangleDetector.swift in Sources */,
+				ADA2FCFB05D4EAFF436BE8CAF8B94708 /* WeScan-dummy.m in Sources */,
+				9883D911C01D1D32D301CE3843471481 /* ZoomGestureController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DC0E9F685373915AD263656B488D083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WeScan;
+			target = C53EB902F8F7C70E35AAFC5518DF8A68 /* WeScan */;
+			targetProxy = 86CB4C65512462F5FCC596DA896A3011 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A293DC16F7691AF01F951534A98BA501 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FA10B851ACDB1D97F4AA2F2B145F3ED /* Localizable.strings */,
+				2A985335BA85BAE2F769CE33721C5102 /* Localizable.strings */,
+				DCC2686A7BAEE778CEB29A66BBEF9210 /* Localizable.strings */,
+				DF91CE54B08A0ACC2BE654E28391A091 /* Localizable.strings */,
+				FAC5855F92B1A6ACEC7917E4C79C8946 /* Localizable.strings */,
+				AD3BD69E5DEC1C7036F4EE9F3B7E8CB5 /* Localizable.strings */,
+				0B8A4410603B3650ED8B9C062561FA53 /* Localizable.strings */,
+				24C22E100AACC05E3530605B1F6EA59B /* Localizable.strings */,
+				1CD2380F2700AD12255D75DF429B472D /* Localizable.strings */,
+				E26A7C910C5F1876CC7B75E94BEBA5D9 /* Localizable.strings */,
+				B4B14FB756D9ACF087A13A8A19BEA1DE /* Localizable.strings */,
+				42F17B0545C9BEAE221BC65A301C4AAF /* Localizable.strings */,
+			);
+			name = Localizable.strings;
+			path = WeScan;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58DCF120F46C8792219E9754F1C959A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A232B193FDB36819EFCC70659B860968 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040B87CF3C1975E904BF1DDC85B1FB84 /* WeScan.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WeScan/WeScan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WeScan/WeScan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WeScan/WeScan.modulemap";
+				PRODUCT_MODULE_NAME = WeScan;
+				PRODUCT_NAME = WeScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF47CF1485900D3D2861A15FADB3944C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EE5F495874BD0EC13CB14E0E3DA89EE /* Pods-Document Scanner.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Document Scanner/Pods-Document Scanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Document Scanner/Pods-Document Scanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD1F3623EDB390704CB69557ED6CA174 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E06CEB8F0B00BEA3971A55215BFB52 /* Pods-Document Scanner.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Document Scanner/Pods-Document Scanner-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Document Scanner/Pods-Document Scanner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F64E657A597D27F4CA2BE7AA9B300BB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FE8B0D8865C7D52B4471AB40B584BE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 040B87CF3C1975E904BF1DDC85B1FB84 /* WeScan.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WeScan/WeScan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WeScan/WeScan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WeScan/WeScan.modulemap";
+				PRODUCT_MODULE_NAME = WeScan;
+				PRODUCT_NAME = WeScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DCF120F46C8792219E9754F1C959A8 /* Debug */,
+				F64E657A597D27F4CA2BE7AA9B300BB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B647A59DB93905F8CC94464877009E /* Build configuration list for PBXNativeTarget "WeScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A232B193FDB36819EFCC70659B860968 /* Debug */,
+				FE8B0D8865C7D52B4471AB40B584BE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC2BF833D515173949F68B6B252C2FC /* Build configuration list for PBXNativeTarget "Pods-Document Scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1F3623EDB390704CB69557ED6CA174 /* Debug */,
+				AF47CF1485900D3D2861A15FADB3944C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
